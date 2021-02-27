@@ -2,7 +2,9 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
-
+body{
+  background-image: url("image.jpg");
+}
 .info{
        float:right;
 	    margin-right: 200px;
@@ -12,19 +14,26 @@
 }
 
 .signupSection {
- background-image: url("img.jfif");
+ 
   background-repeat: no-repeat;
 
   text-align: center;
 margin-top:100px;
-  color: rgb(247, 14, 14);
+  color: rgb(40, 3, 250);
   box-shadow: 3px 10px 20px 5px rgba(240, 224, 224, 0.5);
 	width: 400px;
 	height: 100%;
 	float:left;
 	margin-left: 200px;
 }
-
+#result{
+  color:rgb(252, 253, 253);
+  font-weight: normal;
+}
+p{
+  color:dodgerblue;
+  font-weight: bold;
+}
 
 
 .signupForm {
@@ -46,8 +55,8 @@ margin-top:100px;
   border-top: none;
   border-left: none;
   border-right: none;
-  background: rgba(7, 240, 104, 0.2);
-  color: rgb(233, 14, 14);
+  background: rgba(217, 221, 217, 0.2);
+  color: rgb(255, 255, 255);
   outline: none;
 }
 
@@ -57,10 +66,10 @@ margin-top:100px;
 }
 
 #join-btn {
-  border: 1px solid #0ab4b4;
+  border: 1px solid #fbfbff;
   background: rgba(20, 20, 20, 0.6);
   font-size: 18px;
-  color: rgb(255, 255, 255);
+  color: rgb(49, 6, 245);
   margin-top: 20px;
   padding: 10px 50px;
   cursor: pointer;
