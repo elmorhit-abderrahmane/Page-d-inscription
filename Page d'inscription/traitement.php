@@ -25,17 +25,21 @@ tfoot {
 <table>
     <thead>
         <tr>
-            <th colspan="2">Visiteur</th>
+            <th colspan="4">Visiteur</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Nom</td>
             <td>Age</td>
+            <td>email</td>
+            <td>tél</td>
         </tr>
         <tr>
             <td><?php echo $_POST['nom'] ?></td>
             <td><?php echo $_POST['age'] ?></td>
+            <td><?php echo $_POST['email'] ?></td>
+            <td><?php echo $_POST['tél'] ?></td>
         </tr>
     </tbody>
 </table> </td>
